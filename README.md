@@ -11,5 +11,16 @@ gem 'paint'
 ```
 gem install terminal-table
 ```
+#### The app further requires a progress bar.
+```
+class ProgressBar
+  def initialize(title)
+    @current_step = 1
+    @title = title
+  end
+
+  attr_accessor :current_step, :title
+end
+```
 
 ### I hope you enjoyed.
